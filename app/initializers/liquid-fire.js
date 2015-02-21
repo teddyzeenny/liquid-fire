@@ -1,4 +1,4 @@
-import { initialize } from "liquid-fire";
+import { initialize as init } from "liquid-fire";
 import Ember from "ember";
 
 export default {
@@ -15,6 +15,6 @@ export default {
       }
     }
 
-    initialize(container);
+    init(container);
   }
 };
