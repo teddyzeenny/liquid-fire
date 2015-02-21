@@ -1,4 +1,4 @@
-import { initialize } from "liquid-fire";
+import { initialize as init } from "liquid-fire";
 import Ember from "ember";
 
 var minEmberVersion = [1, 11];
@@ -29,6 +29,6 @@ export default {
       }
     }
 
-    initialize(container);
+    init(container);
   }
 };
